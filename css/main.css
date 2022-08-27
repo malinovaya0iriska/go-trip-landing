@@ -470,3 +470,23 @@ body {
 .subscribe-form__input::placeholder {
   color: var(--secondary-text);
 }
+
+/* Footer */
+
+.footer {
+  padding: 56px 0 74px;
+}
+
+.nav__list a {
+  line-height: 1.47;
+  color: var(--secondary-text);
+}
+
+.nav__sign-up {
+  line-height: 1.47;
+  color: #838b89;
+}
+
+.nav__sign-up:hover {
+  color: var(--orange);
+}
