@@ -17,23 +17,29 @@
               <h2 class="logo"><a href="#!">GoTrip</a></h2>
             </div>
 
-            <ul class="nav__list">
+            <ul class="nav__list nav__list--header">
               <li><a href="#!" class="active">Home</a></li>
               <li><a href="#!">Services</a></li>
               <li><a href="#!">Pricing</a></li>
               <li><a href="#!">Contact</a></li>
             </ul>
 
-            <ul class="nav__login">
+            <ul class="nav__login nav__login--header">
               <li><a href="#!">Sign up</a></li>
               <li><a href="#!" class="btn btn--login">Login</a></li>
             </ul>
+
+            <button type="button" class="nav__toggle">
+              <div class="menu-icon-wrapper">
+                <div class="menu-icon"></div>
+              </div>
+            </button>
           </nav>
         </div>
 
         <div class="header__row">
           <div class="header__content">
-            <div class="header__badge">exsplore the world</div>
+            <div class="header__badge">explore the world</div>
             <h1 class="header__title">
               Explore The Natural Beauty Of Halmahera With Us
             </h1>
@@ -173,7 +179,7 @@
 
     <footer class="footer">
       <div class="container">
-        <nav class="nav">
+        <nav class="nav nav--footer">
           <div class="nav__logo">
             <h2 class="logo logo--footer"><a href="#!">GoTrip</a></h2>
           </div>
@@ -185,12 +191,13 @@
             <li><a href="#!">Contact</a></li>
           </ul>
 
-          <ul class="nav__login">
+          <ul class="nav__login nav__login--footer">
             <li><a href="#!" class="nav__sign-up">Sign up</a></li>
             <li><a href="#!" class="btn btn--login">Login</a></li>
           </ul>
         </nav>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
